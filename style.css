@@ -1,0 +1,166 @@
+
+.hero_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width : 468px){
+    .name{
+        margin-right: 250px !important;
+    }
+}
+
+.nav-item{
+    font-family: roboto;
+    font-size: 14px;
+    color: azure;
+}
+
+
+.about-img{
+    width: 400px;
+    height: 500px;
+}
+.carousel-img{
+    height: 400px;
+    width: 500px;
+}
+
+.brands{
+    border-width: 1px ;
+    border-style: solid;
+    border-color: beige;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+
+.cars-img{
+    height: 400px;
+    width: 400px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius : 25px
+}
+
+.car-custom{
+    height: 500px;
+    width: 700px;
+}
+
+.card-1{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+    padding-left: 25px;
+    border: 0px;
+}
+
+@media screen and (max-width: 767px){
+    .cars-img{
+        height: 285px;
+        width: 200px;
+    }
+}
+
+.version{
+    background-color: #eaeffd;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+
+
+.price-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 767px){
+    .price-cards{
+        flex-direction: column;
+    }
+}
+
+.standard-card{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.Enterprice-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width : 767px){
+    .Enterprice-card{
+        width: 200px;
+        height: 300px;
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.img-container{
+    transform: rotateX(5deg)  rotateZ(5deg);
+}
+
+
+
+.description{
+    font-weight: 500px;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.price{
+   margin-top: 10px;
+   font-weight: 600px;
+   color: #000000;
+}
+
+.dollors{
+    font-weight: bold;
+    font-size: 32px;
+}
+.features {
+    list-style-type: none;
+
+}
+
+.feature-name{
+    margin-left: 8px;
+}
+
+.custom-icon{
+    color :  blue;
+}
+
+
+
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+
